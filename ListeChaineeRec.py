@@ -124,6 +124,9 @@ class MaillonRec:
             return 1
         else :
             return 1 + self.__suiv.len()
+            
+    def est_vide(self):
+        return self.__tete == None
         
     def __str__(self):
         """MaillonRec -> str
